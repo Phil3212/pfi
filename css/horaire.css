@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-areas: 
+                    "h"
+                    "p"
+                    "p";
+}
+.horaire {
+    margin-top: 15em;
+    display: grid;
+    max-width: 100vh;
+    height: auto;
+    grid-template-columns: 5em repeat(5,1fr);
+    grid-template-rows: 2em repeat(11, 1fr);
+    grid-area: h;
+}
+div {
+    border: 1px solid black; 
+}
+.paragraphe {
+    display: flex;
+    width: 100%;
+}
+img {
+    max-width: 20em;
+    height: auto;
+    max-height: 20em;
+}
+.jour, .heure {
+    background-color: lightslategray;
+    text-align: center;
+    font-weight: 700;
+}
+.prog {
+    background-color: orangered;
+}
+.math {
+    background-color: blue;
+}
+.philo {
+    background-color: turquoise;
+}
+.explo {
+    background-color: skyblue;
+}
+.litt {
+    background-color: crimson;
+}
+.web {
+    background-color: purple;
+}
+.gras {
+    font-weight: bold;
+}
+.italique {
+    font-style: italic;
+}

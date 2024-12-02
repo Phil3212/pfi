@@ -1,0 +1,19 @@
+h2, h3 {
+    margin-bottom: 1em;
+    color: #2c3e50;
+    font-size: 2em;
+}
+figure {
+    margin-top: 3em;
+    border: solid 1px black;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    background-color: darkslategray;
+    border-radius: 10px;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+}

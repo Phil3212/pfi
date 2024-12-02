@@ -1,0 +1,38 @@
+h2 {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.galerie {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:  
+                    "c c c c c"
+                    "c c c c c";
+}
+@media screen and (max-width:900px){
+    .galerie{
+        grid-template-rows: repeat(10, 1fr);
+        grid-template-columns: auto;
+        grid-template-areas: 
+                        "c"
+                        "c"
+                        "c"
+                        "c"
+                        "c"
+                        "c"
+                        "c"
+                        "c"
+                        "c"
+                        "c";
+    }
+}
+#cellule {
+    grid-area: c;
+}

@@ -1,0 +1,12 @@
+.lien {
+    display: flex;
+    background-color: rgb(62, 145, 117);
+    max-width: 30em;
+    border-radius: 1em;
+    padding: 1em;
+    justify-self: center;
+    flex-direction: column;
+}
+h2 {
+    text-align: center;
+}
